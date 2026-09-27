@@ -1,0 +1,29 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local journal data and vector index
+memora.db
+memora.db-*
+chroma_db/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Editors and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
